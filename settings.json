@@ -1,0 +1,202 @@
+{
+    // Misc settings
+    "security.workspace.trust.untrustedFiles": "open",
+    "notebook.output.wordWrap": true,
+    "vscode_custom_css.imports": ["file:///C:/absolute/file/path/to/your/custom.css"],
+
+    // Workbench settings
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Kanagawa No Bold",
+    "workbench.settings.editor": "ui",
+    "workbench.startupEditor": "none",
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.showTabs": "multiple",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.tips.enabled": false,
+    "workbench.tree.enableStickyScroll": false,
+    "workbench.tree.indent": 10,
+    "workbench.sideBar.location": "right",
+    "workbench.activityBar.location": "hidden",
+    "workbench.statusBar.visible": false,
+
+    //Explorer settings
+    "explorer.confirmPasteNative": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.sortOrder": "type",
+    "problems.decorations.enabled": true,
+
+    //Editor settings
+    "editor.padding.top": 16,
+    "editor.fontFamily": "Geist Mono, JetBrains Mono, Fira Code",
+    "editor.fontSize": 13,
+    "editor.lineHeight": 0,
+    "editor.fontWeight": "400",
+    "editor.suggestFontSize": 15,
+    "editor.suggestLineHeight": 25,
+    "editor.fontLigatures": false,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorWidth": 2,
+    "editor.cursorStyle": "line",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.multiCursorModifier": "alt",
+    "editor.hover.delay": 400,
+    "editor.hover.enabled": true,
+    "editor.wordWrapColumn": 200,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.detectIndentation": false,
+    "editor.matchBrackets": "always",
+    "editor.selectionHighlight": false,
+    "editor.linkedEditing": true,
+    "editor.snippetSuggestions": "top",
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "editor.stickyScroll.enabled": false,
+    "editor.minimap.maxColumn": 250,
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.emptySelectionClipboard": true,
+    "editor.lineNumbers": "on",
+    "editor.guides.indentation": true,
+    "editor.colorDecorators": true,
+    "editor.lightbulb.enabled": "off",
+    "editor.renderControlCharacters": false,
+    "editor.renderLineHighlight": "gutter",
+    "editor.overviewRulerBorder": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.occurrencesHighlight": "off",
+    "editor.gotoLocation.multipleReferences": "goto",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleDeclarations": "goto",
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    "editor.accessibilitySupport": "off",
+    "chat.editor.wordWrap": "on",
+    "scm.diffDecorations": "gutter",
+    "breadcrumbs.enabled": false,
+
+    //Diff editor settings
+    "diffEditor.renderSideBySide": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.wordWrap": "on",
+
+    //Window settings
+    "window.newWindowDimensions": "inherit",
+
+    //Files settings
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+
+    // Terminal settings
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.lineHeight": 1.2,
+    "terminal.integrated.fontSize": 14,
+
+    //Search settings
+    "search.useIgnoreFiles": false,
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/dist": true,
+        "**/composer.lock": true,
+        "**/package-lock.json": true
+    },
+
+    // Emmet settings
+    "emmet.includeLanguages": {
+        "javascript": "html",
+        "svelte": "html",
+        "typescript": "html"
+    },
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx",
+        "typescript": "tsx",
+        "svelte": "html"
+    },
+    "emmet.triggerExpansionOnTab": false,
+
+    //Git settings
+    "git.autofetch": true,
+    "git.decorations.enabled": false,
+
+    //Lang-specific settings
+    //JSON
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+
+    //Svelte
+    "[svelte]": {
+        "editor.defaultFormatter": "svelte.svelte-vscode"
+    },
+    "svelte.enable-ts-plugin": true,
+
+    //Tailwind
+    "tailwindCSS.experimental.configFile": null,
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "html"
+    },
+
+    //Lua
+    "[lua]": {
+        "editor.quickSuggestions": {
+            "comments": "inline",
+            "other": "on",
+            "strings": "on"
+        },
+        "editor.semanticHighlighting.enabled": true,
+        "editor.defaultFormatter": "sumneko.lua"
+    },
+    "Lua.workspace.library": [
+        "C:/Users/Administrator/Desktop/Lua types/ox_types/types",
+        "C:/Users/Administrator/Desktop/Lua types/ox_lib",
+        "~\\AppData\\Roaming\\Code\\User\\globalStorage\\overextended.cfxlua-vscode\\library\\runtime",
+        "~\\AppData\\Roaming\\Code\\User\\globalStorage\\overextended.cfxlua-vscode\\library\\natives\\CFX-NATIVE",
+        "~\\AppData\\Roaming\\Code\\User\\globalStorage\\overextended.cfxlua-vscode\\library\\natives\\GTAV"
+    ],
+    "Lua.runtime.version": "Lua 5.4",
+    "Lua.runtime.plugin": "~\\AppData\\Roaming\\Code\\User\\globalStorage\\overextended.cfxlua-vscode\\plugin.lua",
+    "Lua.runtime.nonstandardSymbol": ["/**/", "`", "+=", "-=", "*=", "/=", "<<=", ">>=", "&=", "|=", "^="],
+    "Lua.workspace.ignoreDir": [".vscode", ".git", ".github", "node_modules", "\\[cfx\\]"],
+
+    //Extensons settings
+    //Prettier
+    "prettier.bracketSameLine": true,
+    "prettier.printWidth": 120,
+    "prettier.requireConfig": false,
+    "prettier.useEditorConfig": false,
+    "prettier.tabWidth": 4,
+
+    //Discord Rich Presence
+    "discord.detailsDebugging": "Debugging (or rather trying to) {file_name}",
+    "discord.detailsEditing": "Writing funny words in {file_name}",
+    "discord.detailsIdling": "Wasting time",
+    "discord.largeImageIdling": "Wasting time",
+    "discord.lowerDetailsIdling": "Wasting time",
+    "discord.lowerDetailsDebugging": "Workspace: {workspace}",
+
+    //Codesnap
+    "codesnap.showLineNumbers": false,
+    "codesnap.roundedCorners": true,
+    "codesnap.backgroundColor": "#FAF9F6",
+    "codesnap.containerPadding": "8em",
+    "codesnap.boxShadow": "rgba(0, 0, 0, 0.55) 0px 12px 24px",
+
+    //Material Icon Theme
+    "material-icon-theme.saturation": 1,
+
+    //Space under this comment is used by VSCode to add any manually changed settings at runtime. This comment and its value serve only as visual markers for a human reader.
+    "thisValue.thatDoesNothing.exceptItKeepsTheComment": "keep it!",
+    "editor.minimap.enabled": false,
+    "git.openRepositoryInParentFolders": "never"
+}
